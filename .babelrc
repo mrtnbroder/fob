@@ -1,0 +1,9 @@
+{
+  "presets": ["./presets/es2015"],
+  "plugins": ["flow-comments"],
+  "env": {
+    "cjs": {
+      "plugins": ["add-module-exports"]
+    }
+  }
+}
